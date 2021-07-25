@@ -53,7 +53,6 @@ body {
     text-transform: uppercase;
     font-family: Open, sans-serif;
     color:#424643;
-
 }
 
 #logo2 {
@@ -66,7 +65,7 @@ body {
     color: #68de7c;
 }
 
-/* cover image */ 
+/* cover image and text */ 
 
 #yoga-outer {
     height: 600px;
@@ -75,7 +74,7 @@ body {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text, #cover-text h2 h3{
     color: #fff;
 }
 
@@ -84,5 +83,25 @@ body {
     width: 100%;
     background: url('../images/yoga-women.webp') no-repeat center center; 
     background-size: 1450px;
-  
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 250px;
+    height: 100px;
+
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: rgba(174, 243, 202, 0.7);
+
+    bottom: 30px;
+    right: 100px;
+
+    position: absolute;
 }
