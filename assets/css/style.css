@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto+Condensed&display=swap');
 
 * {
     margin: 0;
@@ -8,19 +7,13 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    font-weight: 200;
-    color: #330033;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #424643;
 }
 
 /* headings and logo */
 
-h3, h2 {
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #660033;
-}
 
 #menu {
     font-size: 110%;
@@ -51,12 +44,48 @@ h3, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-#logo {
+#logo1 {
     float: left;
     font-size: 250%;
     margin-left: 30px;
-    font-weight: 500;
-    margin-top: 10px;
+    font-weight: 700;
+    margin-top: 35px;
     text-transform: uppercase;
-    font-stretch: extra-condensed;
+    font-family: Open, sans-serif;
+    color:#424643;
+
+}
+
+#logo2 {
+    float: left;
+    font-size: 250%;
+    font-weight: 700;
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-family: Open, sans-serif;
+    color: #68de7c;
+}
+
+/* cover image */ 
+
+#yoga-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#yoga-women {
+    height: 600px;
+    width: 100%;
+    background: url('../images/yoga-women.webp') no-repeat center center;
+
+    /* animates zoom effect on laoding page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
